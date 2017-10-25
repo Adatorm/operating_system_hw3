@@ -1,0 +1,58 @@
+
+- search.txt icin sonuclar
+
+	- PAGESIZE=128
+	  fifo -> 6 page replacement
+	  clock -> 6 page replacement
+
+	- PAGESIZE=64
+	  fifo -> 10 page replacement
+	  clock -> 10 page replacement
+	  
+	- PAGESIZE=32
+	 fifo -> 18 page replacement
+	 clock -> 18 page replacement
+	 
+	- PAGESIZE=16
+	  fifo -> 34page replacement
+	  clock -> 34 page replacement
+	  
+	  - PAGESIZE=8
+	  fifo -> 67 page replacement
+	  clock -> 67 page replacement
+	  
+	  - PAGESIZE=4
+	  fifo -> 132 page replacement
+	  clock -> 132 page replacement
+	  
+	
+
+- cort.txt icin sonuclar
+
+	- PAGESIZE=128
+	  fifo -> 16090 page replacement
+	  clock -> 16090page replacement
+
+	- PAGESIZE=64
+	  fifo -> 30555 page replacement
+	  clock -> 30555 page replacement
+	  
+	- PAGESIZE=32
+	 fifo -> 59436 page replacement
+	 clock -> 59436 page replacement
+	 
+	- PAGESIZE=16
+	  fifo -> 117635 page replacement
+	  clock -> 117635 page replacement
+	  
+	  - PAGESIZE=8
+	  fifo -> 235059 page replacement
+	  clock -> 235059 page replacement
+	  
+	  - PAGESIZE=4
+	  fifo -> 468384 page replacement
+	  clock -> 468384 page replacement
+	  
+
+- page fault olarak bir farklılık oluşmadı.
+	  

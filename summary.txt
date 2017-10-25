@@ -1,0 +1,29 @@
+- source dosyalari windows 10 64 bit sistemde gcc version 4.8.1 ile derlendi.
+
+- debug modu 0-1-2-3 verilmezse programi sonlandiriyor.
+
+- eger 3 ten az veya fazla arguman gonderilirse program sonlaniyor.
+
+- make yapildigi zaman a.exe executible dosyasi olusuyor.
+
+- run_sort.bat, dizindeki sort.txt dosyasini debug modu 0 ile calistirir.Sonunda system pause ile bekler.
+
+- run_search.bat, dizindeki search.txt dosyasini debug modu 0 ile calistirir.Sonunda system pause ile bekler.
+
+- bat dosyalarinin calisabilmesi icin dizinde make yapilmali ve exec dosyasinin adi a.exe olmali.
+
+- disk olustururken 2^20 yani 1048576 lik int arrayi alinca stack patladi, ben de vector ile ihtiyacim kadarini ekledim.
+
+- page table bastirirken totalMemory/PAGESIZE yani ne kadar page kullanildiysa o kadarini ekrana basacak,diger turlu 512 tane page 
+  basiyor ve cogunlugunu bosa basmis oluyor.Odevde sadece replacement oldugu icin, yani memory miz basindan sabit, diger pagelere gerek kalmiyor.
+  
+- bonus kisim icin clock algoritmasini kullandim fakat ayni kapiya ciktigi icin page fault miktarlari esit oldu.Clock un avantaji fifodan eleman
+  cikartip eklemedigimiz icin daha efficient yani cpu az kullanan bir algoritma kullanmis oluyoruz.
+
+- bonus icin, clock algoritmasi calistirmak icin simulate.h daki FIFOSECOND flag i 0 yapilmali, 1 yapilirsa fifo calisir.0/1 harici yapmayin, program calismaz.
+
+- fifo second ve clock algoritmasinin page sizelar bazinda karsilastirmasi fifoVsClock.txt dosyasinda mevcuttur.
+
+
+Guner Acet
+
